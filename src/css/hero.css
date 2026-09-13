@@ -1,9 +1,21 @@
+.hero-section {
+  width: 1280px;
+  font-family: 'Inter', sans-serif;
+  padding: 170px 140px;
+  background-image: url(../../src/img/hero/hero-desk.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+   margin: 0 auto;
+ }
 .hero-title {
   font-weight: 500;
   font-size: 80px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 24px;
 }
 
 .hero-text {
@@ -11,6 +23,7 @@
   line-height: 1.4;
   text-align: center;
   color: #b4b7ba;
+  margin: 0 202px 48px;
 }
 
 .hero-button {
@@ -20,6 +33,9 @@
   letter-spacing: -0.02em;
   color: #fbfbfb;
   background-color: #1b414b;
+  padding: 16px 40px;
+  border-radius: 15px;
+ 
 }
 
 .hero-button:hover,
