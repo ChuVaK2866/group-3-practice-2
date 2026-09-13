@@ -1,5 +1,8 @@
 .about-list {
   background-color: #1b414b;
+  border-radius: 24px;
+  width: 716px;
+  padding: 64px 24px;
 }
 
 .about-count {
@@ -7,6 +10,9 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.05em;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .about-text {
@@ -14,4 +20,35 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: #b4b7ba;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px 44px;
+}
+
+.about-item {
+  width: 286px;
+  height: 100px;
+}
+
+.about-count {
+  display: block;
+  margin-bottom: 38px;
+}
+.about-count::after{
+  
+}
+.about-text {}
+.about-img{
+  border-radius: 24px;
 }
